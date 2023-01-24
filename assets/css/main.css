@@ -1,0 +1,711 @@
+body#main {
+  margin: 0;
+  padding: 0 150px;
+  background-color: #f4f4f4;
+}
+body#main header {
+  display: flex;
+  flex-direction: column;
+}
+body#main header img {
+  width: 400px;
+}
+body#main header nav ul {
+  height: 40px;
+  display: flex;
+  background-color: rgb(27, 99, 27);
+  list-style: none;
+  padding: 0;
+}
+body#main header nav ul li {
+  width: 110px;
+  background-color: rgb(27, 99, 27);
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body#main header nav ul li a {
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body#main header nav ul li a i {
+  font-size: 15px;
+  margin-right: 5px;
+}
+body#main header nav ul li:hover {
+  background-color: rgb(40, 131, 40);
+}
+body#main main {
+  padding: 5px;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  background-color: #fff;
+}
+body#main main section {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+body#main main section img {
+  width: 100%;
+}
+body#main footer {
+  margin-top: 15px;
+  background-color: rgb(54, 54, 54);
+  height: 100px;
+}
+body#main footer .container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+body#main footer .container p {
+  color: #fff;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+body#about {
+  margin: 0;
+  padding: 0 150px;
+  background-color: #f4f4f4;
+}
+body#about header {
+  display: flex;
+  flex-direction: column;
+}
+body#about header img {
+  width: 400px;
+}
+body#about header nav ul {
+  height: 40px;
+  display: flex;
+  background-color: rgb(27, 99, 27);
+  list-style: none;
+  padding: 0;
+}
+body#about header nav ul li {
+  width: 110px;
+  background-color: rgb(27, 99, 27);
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body#about header nav ul li a {
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body#about header nav ul li a i {
+  font-size: 15px;
+  margin-right: 5px;
+}
+body#about header nav ul li:hover {
+  background-color: rgb(40, 131, 40);
+}
+body#about main {
+  padding: 5px;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  background-color: #fff;
+}
+body#about main section {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+body#about main section img {
+  width: 100%;
+}
+body#about footer {
+  margin-top: 15px;
+  background-color: rgb(54, 54, 54);
+  height: 100px;
+}
+body#about footer .container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+body#about footer .container p {
+  color: #fff;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+body#service {
+  margin: 0;
+  padding: 0 150px;
+  background-color: #f4f4f4;
+}
+body#service header {
+  display: flex;
+  flex-direction: column;
+}
+body#service header img {
+  width: 400px;
+}
+body#service header nav ul {
+  height: 40px;
+  display: flex;
+  background-color: rgb(27, 99, 27);
+  list-style: none;
+  padding: 0;
+}
+body#service header nav ul li {
+  width: 110px;
+  background-color: rgb(27, 99, 27);
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body#service header nav ul li a {
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body#service header nav ul li a i {
+  font-size: 15px;
+  margin-right: 5px;
+}
+body#service header nav ul li:hover {
+  background-color: rgb(40, 131, 40);
+}
+body#service main {
+  padding: 5px;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  background-color: #fff;
+}
+body#service main section {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+body#service main section .container .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body#service main section .container .box .x-box {
+  width: 23%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+body#service main section .container .box .x-box .icon {
+  width: 70px;
+  height: 70px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 10px;
+}
+body#service main section .container .box .x-box .icon i {
+  font-size: 60px;
+  color: rgb(27, 99, 27);
+}
+body#service main section .container .box .x-box h5 {
+  font-size: 18px;
+}
+body#service footer {
+  margin-top: 15px;
+  background-color: rgb(54, 54, 54);
+  height: 100px;
+}
+body#service footer .container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+body#service footer .container p {
+  color: #fff;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+body#project {
+  margin: 0;
+  padding: 0 150px;
+  background-color: #f4f4f4;
+}
+body#project header {
+  display: flex;
+  flex-direction: column;
+}
+body#project header img {
+  width: 400px;
+}
+body#project header nav ul {
+  height: 40px;
+  display: flex;
+  background-color: rgb(27, 99, 27);
+  list-style: none;
+  padding: 0;
+}
+body#project header nav ul li {
+  width: 110px;
+  background-color: rgb(27, 99, 27);
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body#project header nav ul li a {
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body#project header nav ul li a i {
+  font-size: 15px;
+  margin-right: 5px;
+}
+body#project header nav ul li:hover {
+  background-color: rgb(40, 131, 40);
+}
+body#project main {
+  padding: 5px;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+  background-color: #fff;
+}
+body#project main section {
+  width: 100%;
+  height: 100%;
+}
+body#project main section .container h3 {
+  margin-bottom: 20px;
+}
+body#project main section .container .box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body#project main section .container .box .x-box {
+  width: 30%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1), -2px -2px 2px rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+body#project main section .container .box .x-box .image {
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+body#project main section .container .box .x-box .image img {
+  width: 100%;
+}
+body#project main section .container .box .x-box h5 {
+  font-size: 18px;
+  margin-top: 10px;
+}
+body#project main section .container .box .x-box:hover {
+  margin-top: -10px;
+  cursor: pointer;
+}
+body#project footer {
+  margin-top: 15px;
+  background-color: rgb(54, 54, 54);
+  height: 100px;
+}
+body#project footer .container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+body#project footer .container p {
+  color: #fff;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+body#job {
+  margin: 0;
+  padding: 0 150px;
+  background-color: #f4f4f4;
+}
+body#job header {
+  display: flex;
+  flex-direction: column;
+}
+body#job header img {
+  width: 400px;
+}
+body#job header nav ul {
+  height: 40px;
+  display: flex;
+  background-color: rgb(27, 99, 27);
+  list-style: none;
+  padding: 0;
+}
+body#job header nav ul li {
+  width: 110px;
+  background-color: rgb(27, 99, 27);
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body#job header nav ul li a {
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body#job header nav ul li a i {
+  font-size: 15px;
+  margin-right: 5px;
+}
+body#job header nav ul li:hover {
+  background-color: rgb(40, 131, 40);
+}
+body#job main {
+  padding: 5px;
+  width: 100%;
+  min-height: 100px;
+  background-color: #fff;
+}
+body#job main section {
+  width: 100%;
+  height: 100%;
+}
+body#job main section .container h3 {
+  margin-bottom: 20px;
+}
+body#job main section .container .box_information {
+  display: flex;
+  margin-bottom: 50px;
+}
+body#job main section .container .box_information .bx {
+  margin-right: 10px;
+}
+body#job main section .container .box_information .bx img {
+  width: 50px;
+}
+body#job main section .container .box_information .bx a {
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(27, 99, 27);
+}
+body#job main section .container .box_job-available .box .sub-header {
+  display: flex;
+  align-items: center;
+}
+body#job main section .container .box_job-available .box .sub-header i {
+  font-size: 30px;
+  color: rgb(27, 99, 27);
+}
+body#job main section .container .box_job-available .box .sub-header a {
+  text-decoration: none;
+  color: rgb(27, 99, 27);
+  font-weight: 700;
+  font-size: 20px;
+}
+body#job footer {
+  margin-top: 15px;
+  background-color: rgb(54, 54, 54);
+  height: 100px;
+}
+body#job footer .container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+body#job footer .container p {
+  color: #fff;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+body#contact {
+  margin: 0;
+  padding: 0 150px;
+  background-color: #f4f4f4;
+}
+body#contact header {
+  display: flex;
+  flex-direction: column;
+}
+body#contact header img {
+  width: 400px;
+}
+body#contact header nav ul {
+  height: 40px;
+  display: flex;
+  background-color: rgb(27, 99, 27);
+  list-style: none;
+  padding: 0;
+}
+body#contact header nav ul li {
+  width: 110px;
+  background-color: rgb(27, 99, 27);
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body#contact header nav ul li a {
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body#contact header nav ul li a i {
+  font-size: 15px;
+  margin-right: 5px;
+}
+body#contact header nav ul li:hover {
+  background-color: rgb(40, 131, 40);
+}
+body#contact main {
+  padding: 5px;
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  background-color: #fff;
+}
+body#contact main section {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+body#contact main section .container h3 {
+  margin-bottom: 10px;
+}
+body#contact main section .container .x-content {
+  display: flex;
+}
+body#contact main section .container .x-content .image {
+  margin-right: 20px;
+}
+body#contact footer {
+  margin-top: 15px;
+  background-color: rgb(54, 54, 54);
+  height: 100px;
+}
+body#contact footer .container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+body#contact footer .container p {
+  color: #fff;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+body#register {
+  margin: 0;
+  padding: 0 150px;
+  background-color: #f4f4f4;
+}
+body#register header {
+  display: flex;
+  flex-direction: column;
+}
+body#register header img {
+  width: 400px;
+}
+body#register header nav ul {
+  height: 40px;
+  display: flex;
+  background-color: rgb(27, 99, 27);
+  list-style: none;
+  padding: 0;
+}
+body#register header nav ul li {
+  width: 110px;
+  background-color: rgb(27, 99, 27);
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body#register header nav ul li a {
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body#register header nav ul li a i {
+  font-size: 15px;
+  margin-right: 5px;
+}
+body#register header nav ul li:hover {
+  background-color: rgb(40, 131, 40);
+}
+body#register main {
+  padding: 5px;
+  width: 100%;
+  height: 460px;
+  overflow: hidden;
+  background-color: #fff;
+}
+body#register main section {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+body#register main section h3 {
+  margin-bottom: 10px;
+}
+body#register main section .password {
+  position: relative;
+}
+body#register main section .password .icon-input {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+body#register main section .password i {
+  color: rgb(106, 106, 106);
+  font-size: 20px;
+}
+body#register footer {
+  margin-top: 15px;
+  background-color: rgb(54, 54, 54);
+  height: 100px;
+}
+body#register footer .container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+body#register footer .container p {
+  color: #fff;
+  font-size: 13px;
+  margin-top: 20px;
+}
+
+body#login {
+  margin: 0;
+  padding: 0 150px;
+  background-color: #f4f4f4;
+}
+body#login header {
+  display: flex;
+  flex-direction: column;
+}
+body#login header img {
+  width: 400px;
+}
+body#login header nav ul {
+  height: 40px;
+  display: flex;
+  background-color: rgb(27, 99, 27);
+  list-style: none;
+  padding: 0;
+}
+body#login header nav ul li {
+  width: 110px;
+  background-color: rgb(27, 99, 27);
+  margin-right: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body#login header nav ul li a {
+  font-size: 15px;
+  color: #fff;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body#login header nav ul li a i {
+  font-size: 15px;
+  margin-right: 5px;
+}
+body#login header nav ul li:hover {
+  background-color: rgb(40, 131, 40);
+}
+body#login main {
+  padding: 5px;
+  width: 100%;
+  height: 280px;
+  overflow: hidden;
+  background-color: #fff;
+}
+body#login main section {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+body#login main section h3 {
+  margin-bottom: 10px;
+}
+body#login main section .password {
+  position: relative;
+}
+body#login main section .password .icon-input {
+  position: absolute;
+  right: 0;
+  top: 10px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+body#login main section .password i {
+  color: rgb(106, 106, 106);
+  font-size: 20px;
+}
+body#login footer {
+  margin-top: 15px;
+  background-color: rgb(54, 54, 54);
+  height: 100px;
+}
+body#login footer .container {
+  width: 100%;
+  height: 100%;
+  display: grid;
+  place-items: center;
+}
+body#login footer .container p {
+  color: #fff;
+  font-size: 13px;
+  margin-top: 20px;
+} /*# sourceMappingURL=main.css.map */
